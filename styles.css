@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
+/* css variables */
+
 :root {
   --primary-color: green;
   --primary-color-dark: #bc1c5c;
@@ -9,11 +11,15 @@
   --max-width: 1200px;
 }
 
+/* Global styles */
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
+/* section styles */
 
 .section__container {
   max-width: var(--max-width);
@@ -53,6 +59,8 @@
   margin-bottom: 1rem;
   color: var(--text-light);
 }
+
+/* Button styles */
 
 .btn {
   padding: 0.75rem 1.5rem;
@@ -99,6 +107,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+/* nav-bar styles */
 
 nav {
   position: fixed;
@@ -156,6 +166,8 @@ nav {
   display: none;
 }
 
+/* header styles */
+
 .header__container {
   padding-block: 10rem 15rem;
 }
@@ -180,7 +192,7 @@ nav {
   color: var(--primary-color);
 }
 
-
+/* about styles */
 
 .about__container {
   overflow: hidden;
@@ -268,6 +280,7 @@ nav {
   color: var(--text-light);
 }
 
+/* footer styles */
 
 
 .footer {
