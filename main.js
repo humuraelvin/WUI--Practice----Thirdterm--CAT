@@ -1,6 +1,13 @@
+// This is the java script part used add all visible animations in the webpage
+// And scroll reveals
+
+
+
 const menuBtn = document.getElementById("menu-btn");
 const navLinks = document.getElementById("nav-links");
 const menuBtnIcon = menuBtn.querySelector("i");
+
+// Breadcrumb click handler functions
 
 menuBtn.addEventListener("click", () => {
   navLinks.classList.toggle("open");
@@ -13,6 +20,8 @@ navLinks.addEventListener("click", () => {
   navLinks.classList.remove("open");
   menuBtnIcon.setAttribute("class", "ri-menu-line");
 });
+
+//animation duration
 
 const scrollRevealOption = {
   distance: "50px",
